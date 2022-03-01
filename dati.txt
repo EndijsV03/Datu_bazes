@@ -1,0 +1,9 @@
+ID Vards Uzvards Vecums Tel.nr. Ceka nr. 
+1  Janis Biezins 86 24045437 #00793287 
+2  Janis Cakars 51 21007721 #00941886 
+3  Rolands Janka 92 22358180 #00240768 
+4  Ingolfs Alpa 48 23971187 #00406098 
+5  Peters Biezins 70 23377583 #001082268 
+6  Edgars Abolins 39 22746854 #00550242 
+7  Rolands Alpa 43 24027518 #001038114 
+8  Rainers Alpa 43 21374516 #00320859 
