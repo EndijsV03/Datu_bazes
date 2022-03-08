@@ -17,6 +17,7 @@ int main()
     string uzvrdi;
     string vardi[8];
     string uzvardi[8];
+    string produkti[8];
     int a = 0;
     int b = 0;
     int c = 0;
@@ -128,6 +129,12 @@ int main()
     filename = "produkti.txt";
     file.open(filename.c_str());
 
+    for(int z = 0; z < 8; z++)
+        {
+            file >> word;
+            produkti[z] = word;
+        }
+
     string Rand_Mas[a][b];
     for(int x = 0; x < a; x++)
      {
@@ -161,8 +168,7 @@ int main()
                            }
                            if(y == 6)
                                 {
-                                    file >> word;
-                                    cout << word;
+                                    Rand_Mas[x][y] = produkti[rand()%8];
                                 }
 
                             mans_fails << Rand_Mas[x][y] << " ";
